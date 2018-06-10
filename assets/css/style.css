@@ -1,0 +1,305 @@
+/*style for whole body*/
+body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:whitesmoke;
+}
+
+/*links to other pages*/
+nav{
+    float: right;
+    margin-right:50px;
+    margin-top:40px;
+    color:grey;
+    
+}
+/*styling for anchor tag*/
+a{
+    color: grey;
+    font-size: 16px;
+    text-decoration: none;
+}
+/*header*/
+
+h2{
+    float:left;
+    width: fit-content;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: teal;
+    font-size: 30px;
+    color: white;
+    margin-top: 33px;
+    margin-left: 60px;
+    padding: 20px;
+}
+/*hover on links*/
+a:hover{        
+    text-decoration: none;
+    color: darkgrey;
+}
+/*content background image*/
+section.content{
+    background-image: url("http://people.csail.mit.edu/jaffer/Solid/greystone.jpg");
+    margin:0 30px 0 30px;
+    border-top: 3px solid darkgrey;
+    padding:20px 30px 60px 30px;
+}
+/*contact heading*/
+h3.pc{
+    color: teal;
+    font-size: 25px;
+}
+/*actual content*/
+div.content{
+    width:960px;
+    margin-top: 40px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom:auto;
+    padding: 30px 30px 40px 30px;
+    color: grey;
+    background: snow;
+
+    
+   
+}
+/* style for button*/
+input[type=submit], select{
+    float: left;
+    background-color: teal;
+    color:white;
+    width: fit-content;
+    font-size: 30px;
+
+
+}
+/*textbox styling*/
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 8px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+/* footer*/
+.h1{
+    position: fixed;
+    border-top: 5px solid green;
+    height: 22px;
+    text-align: center;
+    color: grey;
+    font-size: 12px;
+    background: rgb(104, 103, 103);
+    width:100%;
+    bottom:0;
+}
+/*image on index page*/
+.image
+{
+    float: left;
+    height:120px;
+    width:100px;
+    padding-right:10px;
+}
+/*images on portfolio are wrapped around div class named "images"*/
+.images{
+    display:table;
+    content:"";
+    
+    clear: both;
+    
+/*images description */
+}
+.image-desc{
+    height: 260px ;
+    float: left;
+    width:300px;
+    margin: 3px 10% 6% 0;
+    position: relative;
+    background-color: teal;
+    color: white;
+    text-align:center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font: bold;
+   
+
+}
+/*images on portfolio has class named folio_img*/
+.folio_img{
+height: 210px;
+width: 300px;
+}
+.textinput{
+        
+    width:100%;
+    
+    outline:none;
+    resize:none;
+    padding: 12px 20px;
+    margin-bottom: 8px;
+    height:140px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+/*RESPONSIVE-PORTFOLIO*/
+/* content for respomsive por:tfolio*/
+@media screen and (max-width:980px),
+
+@media screen and (max-width:768px),
+
+@media screen and (max-width:640px)
+{
+    body{
+    
+        font-family: Arial, Helvetica, sans-serif;
+        background-color:whitesmoke;
+    }
+    
+    /*links to other pages*/
+    nav{
+        float: right;
+        margin-right:50px;
+        margin-top:40px;
+        color:grey;
+        
+    }
+    /*styling for anchor tag*/
+    a{
+        color: grey;
+        font-size: 16px;
+        text-decoration: none;
+    }
+    
+    /*header*/
+     h2{
+        float:left;
+        width: fit-content;
+        font-size: large;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-color: teal;
+        font-size: 30px;
+        color: white;
+        margin-top: 33px;
+        margin-left: 60px;
+        padding: 20px;
+        position:static;
+    }
+    /*hover on links*/
+    a:hover{        
+        text-decoration: none;
+        color: darkgrey;
+    }
+    /*content background image*/
+    section.content{
+        background-image: url("http://people.csail.mit.edu/jaffer/Solid/greystone.jpg");
+        margin:0 30px 0 30px;
+        border-top: 3px solid darkgrey;
+        padding:20px 30px 60px 30px;
+    }
+    /*contact heading*/
+    h3.pc{
+        color: teal;
+        font-size: 25px;
+    }
+    /*actual content*/
+    div.content{
+        width:auto;
+        margin-top: 40px;
+        margin-left:auto;
+        margin-right: auto;
+        margin-bottom:auto;
+        padding: 30px 30px 40px 30px;
+        color: grey;
+        background: snow;
+    
+        
+       
+    }
+    /* style for button*/
+    input[type=submit], select{
+        float: left;
+        background-color: teal;
+        color:white;
+        width: fit-content;
+        font-size: 30px;
+    
+    
+    }
+    /*textbox styling*/
+    input[type=text], select {
+        width: 100%;
+        padding: 12px 20px;
+        margin-bottom: 8px;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    /* footer*/
+    .h1{
+        position: fixed;
+        border-top: 5px solid green;
+        height: 22px;
+        text-align: center;
+        color: grey;
+        font-size: 12px;
+        background: rgb(104, 103, 103);
+        width:100%;
+        bottom:0;
+    }
+    /*image on index page*/
+    .image
+    {
+        float: left;
+        height:120px;
+        width:100px;
+        padding-right:10px;
+    }
+    /*images on portfolio are wrapped around div class named "images"*/
+    .images{
+        display:table;
+        content:"";
+        
+        clear: both;
+        
+    /*images description */
+    }
+    .image-desc{
+        height: 260px ;
+        float: left;
+        width:300px;
+        margin: 3px 10% 6% 0;
+        position: relative;
+        background-color: teal;
+        color: white;
+        text-align:center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font: bold;
+       
+    
+    }
+    /*images on portfolio has class named folio_img*/
+    .folio_img{
+    height: 210px;
+    width: 300px;
+    }
+    .textinput{
+        
+        width:100%;
+        
+        outline:none;
+        resize:none;
+        padding: 12px 20px;
+        margin-bottom: 8px;
+        display: 140px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+} 
