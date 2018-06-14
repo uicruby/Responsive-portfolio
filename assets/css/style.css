@@ -151,9 +151,9 @@ width: 300px;
 /* content for respomsive por:tfolio*/
 @media screen and (max-width:980px),
 
-@media screen and (max-width:768px),
+screen and (max-width:768px),
 
-@media screen and (max-width:640px)
+screen and (max-width:640px)
 {
     body{
     
